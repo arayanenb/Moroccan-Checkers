@@ -1,0 +1,31 @@
+BOARD_SIZE = 8
+VIDE = ""
+PB = "PB"
+PN = "PN"
+SB = "SB"
+SN = "SN"
+
+MODE_JCJ = "jcj"
+MODE_JCIA = "jcia"
+
+NIVEAU_DEBUTANT = 1
+NIVEAU_INTERMEDIAIRE = 2
+NIVEAU_AVANCE = 3
+NIVEAU_EXPERT = 4
+
+MAX_TOURS = 300
+
+# Constantes pour l'interface graphique
+TAILLE_CASE = 60
+COULEUR_FONCE = "#8B4513"
+COULEUR_CLAIR = "#F5DEB3"
+COULEUR_SELECTION = "#FFD700"
+COULEUR_MOUVEMENT = "#90EE90"
+
+# Noms des niveaux IA
+NOMS_NIVEAUX = {
+    NIVEAU_DEBUTANT: "Débutant",
+    NIVEAU_INTERMEDIAIRE: "Intermédiaire",
+    NIVEAU_AVANCE: "Avancé",
+    NIVEAU_EXPERT: "Expert"
+}

@@ -6,7 +6,7 @@ DB_CONFIG = {
     'host': 'localhost',
     'database': 'jeu_dames',
     'user': 'root',
-    'password': 'Aray nb9.'
+    'password': 'Your Password'
 }
 
 def get_connection():
